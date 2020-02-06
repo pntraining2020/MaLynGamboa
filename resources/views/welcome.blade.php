@@ -26,7 +26,6 @@
                             @endforeach
                             </select>
                     </div>
-                    
                     <div class="form-group">
                         <button class="btn btn-outline-primary" id="clockin">Clock In</button>
                             <input type="text" class="form-control" id="timein">
