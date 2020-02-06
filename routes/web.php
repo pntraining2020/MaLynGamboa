@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/welcome','TimerController@users')->name('/welcome');
 // Route::post('/welcome','TimerController@clockin')->name('/welcome');

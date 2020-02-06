@@ -16,7 +16,6 @@
             <div class="card-body">
             <form method="GET" action="{{route('/welcome')}}">
             @csrf
-            
                 <h4 class="card-title">Time Tracker</h4>
                     <div class="form-group">
                         <label for="names">Names</label>
